@@ -96,3 +96,11 @@ li {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+3f7cac
+
+
+1. por a imagem do evento na parte de trás.
+2. criar um botao que abra a secção relacionada com o dia
+3. por o menu melhor adaptado a mudanças de tamanho
+4. acrescentar a imagem da aefeup e ects?
