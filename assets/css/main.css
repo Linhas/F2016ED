@@ -1624,7 +1624,7 @@
 
 	body {
 		background-color: #116f91;
-		background-image: linear-gradient(to top, rgba(17,111,145, 0.8), rgba(17,111,145, 0.8)), url("../../images/PERFIL.jpg");
+		background-image: linear-gradient(to top, rgba(17,111,145, 0.8), rgba(17,111,145, 0.8)), url("../../images/logo.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -3140,7 +3140,7 @@
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #116f91;
-				background-image: linear-gradient(to top, rgba(17,111,145, 0.8), rgba(17,111,145, 0.8)), url("../../images/perfil.jpg");
+				background-image: linear-gradient(to top, rgba(17,111,145, 0.8), rgba(17,111,145, 0.8)), url("../../images/logo.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3312,6 +3312,10 @@
 			width: 100%;
 		}
 
+		#conferencias::before {
+				height: 0em;			
+			}
+		
 		.wrapper:before {
 			left: 0;
 			top: -6.5em;
@@ -3389,8 +3393,11 @@
 		.wrapper.spotlight {
 			background-color: #0b3954;
 		}
-
-			.wrapper.spotlight:before, .wrapper.spotlight:after {
+/*
+			.wrapper.spotlight:before{
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%230b3954;' /%3E%3C/svg%3E");	
+			}*/
+			.wrapper.spotlight:after {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%230b3954;' /%3E%3C/svg%3E");
 			
 			}
@@ -3644,7 +3651,7 @@
 
 		#footer {
 			background-color: #116f91;
-			background-image: linear-gradient(to top, rgba(17,111,145, 0.8), rgba(17,111,145, 0.8)), url("../../images/perfil.jpg");
+			background-image: linear-gradient(to top, rgba(17,111,145, 0.8), rgba(17,111,145, 0.8)), url("../../images/logo.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
