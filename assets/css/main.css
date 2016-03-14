@@ -2256,9 +2256,13 @@
 			}
 
 /* List */
-#ic{
-	text-align: right;
+#ic:hover{
+	color: #f05a25;
 }
+#aicon:hover{
+	text-decoration: none;
+}
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
@@ -2820,6 +2824,7 @@ div.table-wrapper .icon:hover{
 				height: 3.5em;
 				position:absolute;
 			}
+
 		#header nav {
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;

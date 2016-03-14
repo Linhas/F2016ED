@@ -625,7 +625,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'March 14 2016 14:00:00 GMT+00:00';
+var deadline = '2016/03/14 14:00';
 initializeClock('clockdiv', deadline);
 
 $(function() {
