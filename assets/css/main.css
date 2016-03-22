@@ -2263,6 +2263,10 @@
 	text-decoration: none;
 }
 
+#imageStand img {
+	margin: 0 0 0 1em;
+}
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
